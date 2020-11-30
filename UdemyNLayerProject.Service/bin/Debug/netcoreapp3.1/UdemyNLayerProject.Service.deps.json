@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "UdemyNLayerProject.Service/1.0.0": {
+        "dependencies": {
+          "UdemyNLayerProject.Core": "1.0.0",
+          "UdemyNLayerProject.Data": "1.0.0"
+        },
+        "runtime": {
+          "UdemyNLayerProject.Service.dll": {}
+        }
+      },
+      "UdemyNLayerProject.Core/1.0.0": {
+        "runtime": {
+          "UdemyNLayerProject.Core.dll": {}
+        }
+      },
+      "UdemyNLayerProject.Data/1.0.0": {
+        "dependencies": {
+          "UdemyNLayerProject.Core": "1.0.0"
+        },
+        "runtime": {
+          "UdemyNLayerProject.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UdemyNLayerProject.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UdemyNLayerProject.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UdemyNLayerProject.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
