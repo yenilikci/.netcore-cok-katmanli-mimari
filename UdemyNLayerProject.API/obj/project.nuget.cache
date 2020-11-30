@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pAKa5n5ausfFDwcU1ifI+v7nEgT2y5CHCD1aPHT3Ol3UDczKRzO6Ip/d4DgQ4swNeexQDh7a91TxQWQeMyaxdQ==",
+  "dgSpecHash": "wfNU9Kai08A9DJTiWUEPYxbnYnCSLJV7tPSVGevk6Pu8XUQSIuZps3JmvJNVelvqW7Pr2y8MYF2t+cLTiI4UkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\melih\\source\\repos\\UdemyNLayerProject.API\\UdemyNLayerProject.API\\UdemyNLayerProject.API.csproj",
+  "projectFilePath": "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.API\\UdemyNLayerProject.API.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\melih\\source\\repos\\UdemyNLayerProject.API\\UdemyNLayerProject.Service\\UdemyNLayerProject.Service.csproj",
+      "projectUniqueName": "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Service\\UdemyNLayerProject.Service.csproj",
       "projectName": "UdemyNLayerProject.Service",
-      "projectPath": "C:\\Users\\melih\\source\\repos\\UdemyNLayerProject.API\\UdemyNLayerProject.Service\\UdemyNLayerProject.Service.csproj",
+      "projectPath": "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Service\\UdemyNLayerProject.Service.csproj",
       "packagesPath": "C:\\Users\\melih\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\melih\\source\\repos\\UdemyNLayerProject.API\\UdemyNLayerProject.Service\\obj\\",
+      "outputPath": "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\melih\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,12 +70,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\melih\\source\\repos\\UdemyNLayerProject.API\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj": {
-              "projectPath": "C:\\Users\\melih\\source\\repos\\UdemyNLayerProject.API\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj"
+            "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj": {
+              "projectPath": "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj"
             },
-            "C:\\Users\\melih\\source\\repos\\UdemyNLayerProject.API\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj": {
-              "projectPath": "C:\\Users\\melih\\source\\repos\\UdemyNLayerProject.API\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj"
+            "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj": {
+              "projectPath": "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj"
             }
           }
         }
@@ -88,6 +89,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -103,7 +105,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

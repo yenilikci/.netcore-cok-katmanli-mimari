@@ -12,3 +12,17 @@ C:\Users\melih\source\repos\UdemyNLayerProject.API\UdemyNLayerProject.Service\ob
 C:\Users\melih\source\repos\UdemyNLayerProject.API\UdemyNLayerProject.Service\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Service.csproj.CopyComplete
 C:\Users\melih\source\repos\UdemyNLayerProject.API\UdemyNLayerProject.Service\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Service.dll
 C:\Users\melih\source\repos\UdemyNLayerProject.API\UdemyNLayerProject.Service\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Service.pdb
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Service\bin\Debug\netcoreapp3.1\UdemyNLayerProject.Service.deps.json
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Service\bin\Debug\netcoreapp3.1\UdemyNLayerProject.Service.dll
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Service\bin\Debug\netcoreapp3.1\UdemyNLayerProject.Service.pdb
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Service\bin\Debug\netcoreapp3.1\UdemyNLayerProject.Core.dll
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Service\bin\Debug\netcoreapp3.1\UdemyNLayerProject.Data.dll
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Service\bin\Debug\netcoreapp3.1\UdemyNLayerProject.Core.pdb
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Service\bin\Debug\netcoreapp3.1\UdemyNLayerProject.Data.pdb
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Service\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Service.csprojAssemblyReference.cache
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Service\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Service.AssemblyInfoInputs.cache
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Service\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Service.AssemblyInfo.cs
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Service\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Service.csproj.CoreCompileInputs.cache
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Service\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Service.csproj.CopyComplete
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Service\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Service.dll
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Service\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Service.pdb

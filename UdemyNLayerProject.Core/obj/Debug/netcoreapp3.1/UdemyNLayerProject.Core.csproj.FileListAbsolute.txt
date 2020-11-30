@@ -7,3 +7,12 @@ C:\Users\melih\source\repos\UdemyNLayerProject.API\UdemyNLayerProject.Core\obj\D
 C:\Users\melih\source\repos\UdemyNLayerProject.API\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.AssemblyInfo.cs
 C:\Users\melih\source\repos\UdemyNLayerProject.API\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.dll
 C:\Users\melih\source\repos\UdemyNLayerProject.API\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.pdb
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Core\bin\Debug\netcoreapp3.1\UdemyNLayerProject.Core.deps.json
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Core\bin\Debug\netcoreapp3.1\UdemyNLayerProject.Core.dll
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Core\bin\Debug\netcoreapp3.1\UdemyNLayerProject.Core.pdb
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.csprojAssemblyReference.cache
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.AssemblyInfoInputs.cache
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.AssemblyInfo.cs
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.dll
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.pdb
