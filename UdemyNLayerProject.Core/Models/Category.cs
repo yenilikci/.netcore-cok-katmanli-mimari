@@ -5,7 +5,7 @@ using System.Text;
 
 namespace UdemyNLayerProject.Core.Models
 {
-    class Category
+    public class Category
     {
         public Category()
         {
