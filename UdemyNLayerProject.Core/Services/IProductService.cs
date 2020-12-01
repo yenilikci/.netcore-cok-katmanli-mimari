@@ -4,10 +4,12 @@ using System.Text;
 using System.Threading.Tasks;
 using UdemyNLayerProject.Core.Models;
 
-namespace UdemyNLayerProject.Core.Repositories
+namespace UdemyNLayerProject.Core.Services
 {
-    interface IProductRepository:IRepository<Product>
+    interface IProductService:IService<Product>
     {
         Task<Product> GetWithCategoryByIdAsync(int productId);
+
+        //bool ControlInnerBarcode(Product product);
     }
 }
