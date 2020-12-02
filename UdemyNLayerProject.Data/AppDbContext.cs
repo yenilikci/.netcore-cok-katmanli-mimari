@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using UdemyNLayerProject.Core.Models;
+using UdemyNLayerProject.Data.Configurations;
 
 namespace UdemyNLayerProject.Data
 {
@@ -12,11 +13,12 @@ namespace UdemyNLayerProject.Data
         {
             
         }
-        public DbSet<Category> Categories { get; set; }
+        public DbSet<Category> Categories { get; set; } 
         public DbSet<Product> Products { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
         }
 
     }

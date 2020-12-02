@@ -22,3 +22,6 @@ C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Data\obj\Debu
 C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Data\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Data.csproj.CopyComplete
 C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Data\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Data.dll
 C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Data\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Data.pdb
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Data\bin\Debug\netcoreapp3.1\UdemyNLayerProject.Data.runtimeconfig.json
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Data\bin\Debug\netcoreapp3.1\UdemyNLayerProject.Data.runtimeconfig.dev.json
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.Data\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Data.genruntimeconfig.cache
