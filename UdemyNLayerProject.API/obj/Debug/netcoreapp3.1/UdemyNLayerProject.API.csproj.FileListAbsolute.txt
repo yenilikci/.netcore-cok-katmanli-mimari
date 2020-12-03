@@ -92,3 +92,5 @@ C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.API\bin\Debug
 C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.API\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\melih\source\repos\UdemyNPlayerProject\UdemyNLayerProject.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
