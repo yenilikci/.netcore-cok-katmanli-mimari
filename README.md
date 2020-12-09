@@ -14,3 +14,5 @@ Udemy kursu ile birlikte geliştirdiğim çok katmanlı mimari kullanan web/api 
 - Action Methodlar içerisinde kod tekrarından nasıl kaçınılır?
 - AutoMapper nedir? Automapper çok katmanlı mimaride nasıl kullanılır?
 - Çok katmanlı mimaride entity framework kullanımı
+
+![projeYapisi](https://user-images.githubusercontent.com/57464067/101643108-d3c4a880-3a44-11eb-9d11-66b8a23776d3.png)
