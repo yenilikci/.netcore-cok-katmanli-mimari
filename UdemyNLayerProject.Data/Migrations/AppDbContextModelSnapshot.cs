@@ -14,24 +14,26 @@ namespace UdemyNLayerProject.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .UseIdentityColumns()
+                .HasAnnotation("ProductVersion", "3.1.14")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.1");
+                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("UdemyNLayerProject.Core.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .UseIdentityColumn();
+                        .HasAnnotation("SqlServer:IdentityIncrement", 1)
+                        .HasAnnotation("SqlServer:IdentitySeed", 1)
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
 
                     b.HasKey("Id");
 
@@ -57,22 +59,24 @@ namespace UdemyNLayerProject.Data.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .UseIdentityColumn();
+                        .HasAnnotation("SqlServer:IdentityIncrement", 1)
+                        .HasAnnotation("SqlServer:IdentitySeed", 1)
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
-                    b.Property<int>("InnerBarcode")
-                        .HasMaxLength(50)
-                        .HasColumnType("int");
+                    b.Property<string>("InnerBarcode")
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasColumnType("nvarchar(200)")
+                        .HasMaxLength(200);
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
@@ -91,7 +95,6 @@ namespace UdemyNLayerProject.Data.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            InnerBarcode = 0,
                             IsDeleted = false,
                             Name = "Pilot Kalem",
                             Price = 12.50m,
@@ -101,51 +104,46 @@ namespace UdemyNLayerProject.Data.Migrations
                         {
                             Id = 2,
                             CategoryId = 1,
-                            InnerBarcode = 0,
                             IsDeleted = false,
                             Name = "Kurşun Kalem",
-                            Price = 5.50m,
+                            Price = 40.50m,
                             Stock = 200
                         },
                         new
                         {
                             Id = 3,
                             CategoryId = 1,
-                            InnerBarcode = 0,
                             IsDeleted = false,
                             Name = "Tükenmez Kalem",
-                            Price = 7.50m,
+                            Price = 500m,
                             Stock = 300
                         },
                         new
                         {
                             Id = 4,
-                            CategoryId = 2,
-                            InnerBarcode = 0,
+                            CategoryId = 1,
                             IsDeleted = false,
                             Name = "Küçük Boy Defter",
-                            Price = 7.50m,
-                            Stock = 300
+                            Price = 12.50m,
+                            Stock = 100
                         },
                         new
                         {
                             Id = 5,
-                            CategoryId = 2,
-                            InnerBarcode = 0,
+                            CategoryId = 1,
                             IsDeleted = false,
                             Name = "Orta Boy Defter",
-                            Price = 17.50m,
+                            Price = 40.50m,
                             Stock = 200
                         },
                         new
                         {
                             Id = 6,
-                            CategoryId = 2,
-                            InnerBarcode = 0,
+                            CategoryId = 1,
                             IsDeleted = false,
                             Name = "Büyük Boy Defter",
-                            Price = 27.50m,
-                            Stock = 100
+                            Price = 500m,
+                            Stock = 300
                         });
                 });
 
@@ -156,13 +154,6 @@ namespace UdemyNLayerProject.Data.Migrations
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Category");
-                });
-
-            modelBuilder.Entity("UdemyNLayerProject.Core.Models.Category", b =>
-                {
-                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }

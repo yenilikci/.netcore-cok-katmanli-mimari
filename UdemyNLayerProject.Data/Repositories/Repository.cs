@@ -9,10 +9,10 @@ using UdemyNLayerProject.Core.Repositories;
 
 namespace UdemyNLayerProject.Data.Repositories
 {
-    class Repository<TEntity> : IRepository<TEntity> where TEntity : class
+    public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
-        public readonly DbContext _context;
-        public readonly DbSet<TEntity> _dbSet;
+        protected readonly DbContext _context;
+        private readonly DbSet<TEntity> _dbSet;
 
         public Repository(AppDbContext context)
         {
@@ -63,8 +63,6 @@ namespace UdemyNLayerProject.Data.Repositories
         public TEntity Update(TEntity entity)
         {
             _context.Entry(entity).State = EntityState.Modified;
-            //entity.name = product.name
-            //entity.price = product.price
             return entity;
         }
     }

@@ -11,5 +11,6 @@ namespace UdemyNLayerProject.Core.Services
         Task<Product> GetWithCategoryByIdAsync(int productId);
 
         //bool ControlInnerBarcode(Product product);
+    
     }
 }

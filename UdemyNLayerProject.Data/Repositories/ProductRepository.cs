@@ -8,7 +8,7 @@ using UdemyNLayerProject.Core.Repositories;
 
 namespace UdemyNLayerProject.Data.Repositories
 {
-    class ProductRepository : Repository<Product>, IProductRepository
+    public class ProductRepository : Repository<Product>, IProductRepository
     {
         private AppDbContext _appDbContext { get => _context as AppDbContext; }
 

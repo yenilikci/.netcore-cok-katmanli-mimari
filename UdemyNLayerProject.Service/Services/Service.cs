@@ -12,6 +12,7 @@ namespace UdemyNLayerProject.Service.Services
     public class Service<TEntity> : IService<TEntity> where TEntity : class
     {
         public readonly IUnitOfWork _unitOfWork;
+
         private readonly IRepository<TEntity> _repository;
 
         public Service(IUnitOfWork unitOfWork, IRepository<TEntity> repository)
@@ -63,14 +64,15 @@ namespace UdemyNLayerProject.Service.Services
 
         public TEntity Update(TEntity entity)
         {
-            TEntity updatEntity  = _repository.Update(entity);
+            TEntity updateEntity = _repository.Update(entity);
             _unitOfWork.Commit();
-            return updatEntity; 
+            return updateEntity;
+
         }
 
         public async Task<IEnumerable<TEntity>> Where(Expression<Func<TEntity, bool>> predicate)
         {
             return await _repository.Where(predicate);
-        }   
+        }
     }
 }

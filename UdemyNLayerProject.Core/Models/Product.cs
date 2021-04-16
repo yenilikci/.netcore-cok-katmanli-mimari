@@ -12,7 +12,7 @@ namespace UdemyNLayerProject.Core.Models
         public decimal Price { get; set; }
         public int CategoryId { get; set; }
         public bool IsDeleted { get; set; }
-        public int InnerBarcode { get; set; }
+        public string InnerBarcode { get; set; }
         public virtual Category Category { get; set; }
     }
 }

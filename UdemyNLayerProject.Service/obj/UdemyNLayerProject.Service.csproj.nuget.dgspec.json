@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Service\\UdemyNLayerProject.Service.csproj": {}
+    "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Service\\UdemyNLayerProject.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj": {
+    "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj",
+        "projectUniqueName": "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj",
         "projectName": "UdemyNLayerProject.Core",
-        "projectPath": "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj",
+        "projectPath": "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj",
         "packagesPath": "C:\\Users\\melih\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Core\\obj\\",
+        "outputPath": "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\melih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +43,32 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.14, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,21 +84,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj": {
+    "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj",
+        "projectUniqueName": "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj",
         "projectName": "UdemyNLayerProject.Data",
-        "projectPath": "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj",
+        "projectPath": "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj",
         "packagesPath": "C:\\Users\\melih\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Data\\obj\\",
+        "outputPath": "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\melih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +116,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj": {
-                "projectPath": "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj"
+              "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj": {
+                "projectPath": "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj"
               }
             }
           }
@@ -100,23 +134,19 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[3.1.14, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[3.1.14, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[3.1.14, )"
             }
           },
           "imports": [
@@ -134,21 +164,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Service\\UdemyNLayerProject.Service.csproj": {
+    "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Service\\UdemyNLayerProject.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Service\\UdemyNLayerProject.Service.csproj",
+        "projectUniqueName": "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Service\\UdemyNLayerProject.Service.csproj",
         "projectName": "UdemyNLayerProject.Service",
-        "projectPath": "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Service\\UdemyNLayerProject.Service.csproj",
+        "projectPath": "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Service\\UdemyNLayerProject.Service.csproj",
         "packagesPath": "C:\\Users\\melih\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Service\\obj\\",
+        "outputPath": "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Service\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\melih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,11 +196,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj": {
-                "projectPath": "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj"
+              "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj": {
+                "projectPath": "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj"
               },
-              "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj": {
-                "projectPath": "C:\\Users\\melih\\source\\repos\\UdemyNPlayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj"
+              "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj": {
+                "projectPath": "C:\\Users\\melih\\Desktop\\çok katmanlı ana proje\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj"
               }
             }
           }
@@ -195,7 +229,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
