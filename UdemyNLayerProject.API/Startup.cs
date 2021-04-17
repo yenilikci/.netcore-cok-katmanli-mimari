@@ -18,6 +18,7 @@ using UdemyNLayerProject.Data;
 using UdemyNLayerProject.Data.Repositories;
 using UdemyNLayerProject.Data.UnitOfWorks;
 using UdemyNLayerProject.Service.Services;
+using AutoMapper;
 
 namespace UdemyNLayerProject.API
 {
@@ -35,6 +36,8 @@ namespace UdemyNLayerProject.API
         {
 
             //Dependency Injection
+            services.AddAutoMapper(typeof(Startup));
+
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped(typeof(IService<>), typeof(Service<>));
             services.AddScoped<IUnitOfWork, UnitOfWork>();

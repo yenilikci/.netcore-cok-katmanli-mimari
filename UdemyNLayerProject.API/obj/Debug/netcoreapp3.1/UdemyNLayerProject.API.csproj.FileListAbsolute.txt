@@ -92,3 +92,5 @@ C:\Users\melih\Desktop\çok katmanlı ana proje\UdemyNLayerProject.API\obj\Debug
 C:\Users\melih\Desktop\çok katmanlı ana proje\UdemyNLayerProject.API\obj\Debug\netcoreapp3.1\UdemyNLayerProject.API.dll
 C:\Users\melih\Desktop\çok katmanlı ana proje\UdemyNLayerProject.API\obj\Debug\netcoreapp3.1\UdemyNLayerProject.API.pdb
 C:\Users\melih\Desktop\çok katmanlı ana proje\UdemyNLayerProject.API\obj\Debug\netcoreapp3.1\UdemyNLayerProject.API.genruntimeconfig.cache
+C:\Users\melih\Desktop\çok katmanlı ana proje\UdemyNLayerProject.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\melih\Desktop\çok katmanlı ana proje\UdemyNLayerProject.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
