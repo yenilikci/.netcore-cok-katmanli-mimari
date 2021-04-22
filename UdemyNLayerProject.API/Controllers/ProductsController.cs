@@ -45,6 +45,12 @@ namespace UdemyNLayerProject.API.Controllers
             return Created(string.Empty,_mapper.Map<ProductDto>(newProduct));
         }
 
+        [HttpPut]
+        public IActionResult Update(ProductDto productDto)
+        {
+            var product = _productService.Update(_mapper.Map<Product>(productDto));
+            return NoContent();
+        }
 
     }
 
