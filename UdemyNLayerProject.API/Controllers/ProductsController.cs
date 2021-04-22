@@ -52,6 +52,14 @@ namespace UdemyNLayerProject.API.Controllers
             return NoContent();
         }
 
+        [HttpDelete("{id}")]
+        public IActionResult Remove(int id)
+        {
+            var product = _productService.GetByIdAsync(id).Result;
+            _productService.Remove(product);
+            return NoContent();
+        }
+
     }
 
 }
