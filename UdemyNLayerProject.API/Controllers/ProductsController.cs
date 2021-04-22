@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using UdemyNLayerProject.API.DTOs;
+using UdemyNLayerProject.Core.Models;
 using UdemyNLayerProject.Core.Services;
 
 namespace UdemyNLayerProject.API.Controllers
@@ -35,6 +36,13 @@ namespace UdemyNLayerProject.API.Controllers
         {
             var product = await _productService.GetByIdAsync(id);
             return Ok(_mapper.Map<ProductDto>(product));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Save(ProductDto productDto)
+        {
+            var newProduct = await _productService.AddAsync(_mapper.Map<Product>(productDto));
+            return Created(string.Empty,_mapper.Map<ProductDto>(newProduct));
         }
 
 
